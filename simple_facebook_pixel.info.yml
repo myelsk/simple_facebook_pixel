@@ -1,0 +1,14 @@
+name: 'Simple Facebook Pixel'
+type: module
+description: 'Simple Facebook Pixel installs Facebook Pixel on your Drupal site.'
+core_version_requirement: ^9 || ^10
+package: Statistics
+configure: simple_facebook_pixel.settings_form
+dependencies:
+  - drupal:node
+  - drupal:taxonomy
+
+# Information added by Drupal.org packaging script on 2024-01-14
+version: '2.0.0'
+project: 'simple_facebook_pixel'
+datestamp: 1705215998
